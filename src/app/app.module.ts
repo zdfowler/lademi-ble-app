@@ -13,6 +13,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { BluetoothLE } from '@ionic-native/bluetooth-le/ngx';
+import { BLE } from '@ionic-native/ble';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { BluetoothLE } from '@ionic-native/bluetooth-le/ngx';
     SplashScreen,
     Geolocation,
     BluetoothLE,
+    BLE,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
